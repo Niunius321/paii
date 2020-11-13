@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Oskar Ukleja">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Myjnia Cennik</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <p>MYJNIA RĘCZNA BŁYSK</p>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cennik</a></li>
+                
+            </ul>
+        </header>
+
+
+            <section>
+                <p>Oblicz koszt usługi</p>
+                <article>
+                <form action="#">
+                    <label for="name">Podaj imie
+                    <input type="text" id="name" name="name"></label>
+                    <fieldset><legend>Usługa</legend>
+                        <label for="MZ">Mycie zewnętrzne 30zł<input for="MZ" type="checkbox"></label>
+                        <label for="S">Suszenie 10zł<input for="S" type="checkbox"></label>
+                        <label for="W">Woskowanie 15zł<input for="W" type="checkbox"></label>
+                        <label for="O">Odkurzanie 10zł<input for="O" type="checkbox"></label>
+                </fieldset>
+                    <fieldset><legend>Rodzja pojazdu</legend>
+                        <select>
+                            <option>Mały</option>
+                            <option>Średni (+10%)</option>
+                            <option>Van (+20%)</option>
+                            <option>Bus (+45%)</option>
+                          </select>
+
+                    </fieldset>
+                    <fieldset><legend>Karta stałego klienta</legend>
+                        <section>Brak <input type="radio" id="Rabat" name="Rabat" value="Brak" checked></section>
+                        <section>Srebrna (-5%) <input type="radio" id="Rabat" name="Rabat" value="Srebrna"></section>
+                        <section>Złota (-15%) <input type="radio" id="Rabat" name="Rabat" value="Złota"></section>
+                    </fieldset>
+                </form>                    <input type="reset" id="Submit" value="Wyczyść">
+                <input type="submit" id="Submit" value="Oblicz"></article>
+                <figure><img src="img/hand_m.jpg"></figure>
+                <p id="Price">Koszt usługi:</p>
+            </section>
+    
+            <aside>
+                <h1>Rezerwacja na godzinę</h1>
+                <p>Rezerwacje na godzine Rezerwuj termin mycia samochodu. Masz mało czasu? Nie lubisz czekać? Zarezewuj mycie pojazdy na konkretną godzinę.</p>
+
+            </aside>
+
+
+
+<footer>
+    <p><span>Oskar Ukleja</span> 3i</p>
+</footer>
+
+    </div>
+</body>
+</html>

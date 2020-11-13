@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 1280px;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container header {
+  display: flex;
+  flex-basis: 100%;
+  height: 100px;
+  align-items: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #4040bf;
+  border-top: 1px solid #4040bf;
+}
+
+.container header p {
+  display: flex;
+  justify-content: center;
+  flex-basis: 60%;
+  font-size: 2.5em;
+  word-spacing: 0.3em;
+  text-transform: capitalize;
+  color: #4040bf;
+}
+
+.container header ul {
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 40%;
+  list-style: none;
+}
+
+.container header ul li {
+  display: flex;
+  flex-basis: 8em;
+  justify-content: center;
+  padding: 0.8em;
+  background-color: #d9d9f2;
+  border-radius: 0.8em;
+}
+
+.container header ul li a {
+  text-decoration: none;
+  color: #4040bf;
+}
+
+.container header ul li:nth-of-type(2) {
+  background-color: #4040bf;
+}
+
+.container header ul li:nth-of-type(2) a {
+  color: #d9d9f2;
+}
+
+.container section {
+  display: flex;
+  background-color: #d9d9f2;
+  flex-basis: 60%;
+  flex-wrap: wrap;
+  padding: 1em;
+  border-radius: 0.8em;
+}
+
+.container section p {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+}
+
+.container section article {
+  display: flex;
+  flex-basis: 55%;
+  flex-wrap: wrap;
+}
+
+.container section article p {
+  text-align: center;
+  flex-basis: 100%;
+}
+
+.container section article form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  margin-bottom: 0.3em;
+}
+
+.container section article form label {
+  display: flex;
+  flex-basis: 100%;
+}
+
+.container section article form fieldset {
+  padding: 1em;
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+}
+
+.container section article form fieldset section {
+  display: flex;
+  flex-basis: 100%;
+  padding: 0;
+}
+
+.container section article #Submit {
+  display: block;
+  padding: 0.5em;
+  width: 6em;
+}
+
+.container section figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 45%;
+}
+
+.container section #Price {
+  font-size: 1.5em;
+}
+
+.container aside {
+  flex-basis: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #d9d9f2;
+  border-radius: 0.8em;
+  padding: 0.8em;
+}
+
+.container aside h1 {
+  display: flex;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  justify-content: center;
+}
+
+.container aside p {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container footer {
+  margin-top: 1em;
+  display: flex;
+  flex-basis: 100%;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 0.8em;
+  justify-content: center;
+  align-items: center;
+}
+
+.container footer p {
+  word-spacing: 0.4em;
+}
+
+.container footer p span {
+  font-size: 2em;
+  color: red;
+}
